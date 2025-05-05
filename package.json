@@ -5,9 +5,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "build": "next build"
+  
   },
   "dependencies": {
     "next": "15.3.1",
