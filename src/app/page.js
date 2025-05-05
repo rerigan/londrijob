@@ -37,7 +37,7 @@ export default function Home() {
           ))}
         </ul>
       )}
-      <div><h3 className='text-center font-bold mt-20 mb-10'><a href='https://www.instagram.com/reri.gan'>Desenvolvido por Rerigan</a></h3></div>
+      <div><h3 className='text-center font-bold mt-20 mb-10'><a href='https://github.com/rerigan'>Desenvolvido por Rerigan</a></h3></div>
     </main>
   );
 }
