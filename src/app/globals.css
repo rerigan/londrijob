@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+body {
+  font-family: Helvetica, sans-serif;
+  background: #e0e0e0;
+  color: rgb(61, 61, 61);
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  height: 100vh;
+  margin:0 auto;
+  max-width:100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+.botaovaga li {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background:rgba(0, 0, 0, 0.8);
+}
+
+.botaovaga li:hover {
+  background-color: rgb(75, 75, 75);
+ 
+}
+
+
