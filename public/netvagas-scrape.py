@@ -19,7 +19,7 @@ for div in job_titles:
     })
 
 # Salvar como JSON
-with open("vagas.json", "w", encoding="utf-8") as f:
+with open("vagas.json", "a", encoding="utf-8") as f:
     json.dump(vagas, f, ensure_ascii=False, indent=4)
 
 print("Arquivo vagas.json salvo com sucesso!")
