@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <main className="p-6 max-w-2xl mx-auto">
-      <h1 className="title text-6xl font-bold mb-4 text-center mt-20 mb-20"><a href='#'>LondriJob</a></h1>
+      <h1 className="title text-6xl font-bold text-center mt-20 mb-20"><a href='#'>LondriJob</a></h1>
       <h3 className="text-xl font-bold mb-10 text-center">Vagas de emprego em Londrina</h3>
       <h4 className="text-md mb-10 text-center">As vagas a seguir são as vagas mais recentes recolhidas de diversos sites, diariamente.</h4>
       {vagas.length === 0 ? (
